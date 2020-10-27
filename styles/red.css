@@ -1,6 +1,6 @@
 body {
   font: 100% "Space Mono", monospace;
-  color: blue;
+  color: red;
   margin: 0px;
   padding: 0px;
   background-color: #0f2712;
@@ -46,7 +46,7 @@ article section #selling-points {
 article pre {
   background: #000;
   border: 1px solid #ddd;
-  color: blue;
+  color: red;
   font-family: monospace;
   font-size: 15px;
   line-height: 1.6;
@@ -71,7 +71,7 @@ article pre .after {
 h1,
 h2,
 h6 {
-  color: blue;
+  color: red;
 }
 
 h1 {
@@ -89,7 +89,7 @@ h6 {
   border: 1px solid #ccc;
   padding: 16px;
   margin: 16px;
-  color: blue;
+  color: red;
   background-color: #f08a8a;
 }
 
@@ -117,4 +117,4 @@ h6 {
 .colorChange {
   margin: 16px;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=red.css.map */

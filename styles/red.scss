@@ -4,11 +4,11 @@
     box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
 };
 $myPadding: 16px;
-$changeBlue: blue;
+$changeRed: red;
 
 body {
     font: 100% "Space Mono", monospace;
-    color: $changeBlue;
+    color: $changeRed;
     margin: 0px;
     padding: 0px;
     background: {
@@ -54,7 +54,7 @@ body {
         pre{
             background: #000;
             border: 1px solid #ddd;
-            color: $changeBlue;
+            color: $changeRed;
             font-family: monospace;
             font-size: 15px;
             line-height: 1.6;
@@ -78,7 +78,7 @@ body {
     h1,
     h2,
     h6 {
-    color: $changeBlue;
+    color: $changeRed;
     }
 
     h1 {
@@ -96,7 +96,7 @@ body {
     border: 1px solid #ccc;
     padding: $myPadding;
     margin: 16px;
-    color:$changeColor;
+    color:$changeRed;
     background-color: rgb(240, 138, 138);
     }
 
