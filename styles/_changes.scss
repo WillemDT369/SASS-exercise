@@ -1,0 +1,14 @@
+$changeRed: red;
+$myPadding: 16px;
+
+body, .pre, h1, h2, h6, .message{
+    color: $changeRed;
+}
+
+section, pre, .message {
+    padding: $myPadding;
+}
+
+h6{
+    padding: $myPadding*2;
+}

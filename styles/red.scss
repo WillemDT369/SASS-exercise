@@ -1,14 +1,14 @@
+@import "changes";
 @mixin shadow {
     -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
     -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
     box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
 };
-$myPadding: 16px;
-$changeRed: red;
+
+
 
 body {
     font: 100% "Space Mono", monospace;
-    color: $changeRed;
     margin: 0px;
     padding: 0px;
     background: {
@@ -39,7 +39,6 @@ body {
             flex-basis: 45%;
             border: 1px silver solid;
             @include shadow();
-            padding: $myPadding;
             margin: 16px;
             clear: both;
             overflow: auto;
@@ -54,14 +53,12 @@ body {
         pre{
             background: #000;
             border: 1px solid #ddd;
-            color: $changeRed;
             font-family: monospace;
             font-size: 15px;
             line-height: 1.6;
             margin-bottom: 1.6em;
             max-width: 100%;
             overflow: auto;
-            padding: $myPadding;
             display: block;
             white-space: pre-wrap;
         
@@ -75,11 +72,7 @@ body {
             }
         }
 }
-    h1,
-    h2,
-    h6 {
-    color: $changeRed;
-    }
+    
 
     h1 {
     text-align: center;
@@ -88,15 +81,12 @@ body {
     h6 {
     text-align: center;
     font-size: 2em;
-    padding: $myPadding*2;
     margin-bottom: 0px;
     }
 
     .message {
     border: 1px solid #ccc;
-    padding: $myPadding;
     margin: 16px;
-    color:$changeRed;
     background-color: rgb(240, 138, 138);
     }
 
@@ -116,11 +106,11 @@ body {
     background-color: orange;
     }
 
-    .red{
+    .redlink{
         color: red;
     }
 
-    .blue{
+    .bluelink{
         color: blue;
     }
     .colorChange{
