@@ -81,7 +81,7 @@ h1 {
 h6 {
   text-align: center;
   font-size: 2em;
-  padding: 160px;
+  padding: 32px;
   margin-bottom: 0px;
 }
 
@@ -99,7 +99,7 @@ h6 {
 }
 
 .error {
-  background-color: red;
+  background-color: #164fca;
 }
 
 .warning {
